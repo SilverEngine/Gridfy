@@ -1,0 +1,187 @@
+/*!
+ * GridFy CSS Framework - Gridfy v1.0.0 ()
+ * Copyright 2019-2019 Nejcc
+ * Licensed under MIT (https://github.com/silverengine/gridfy/master/LICENSE)
+ */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container-full {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row {
+  display: block;
+  margin: 10px auto;
+}
+
+.box-12 {
+  width: 100%;
+  display: block;
+}
+
+.box-6 {
+  width: 49.7%;
+  display: inline-block;
+}
+
+.box-4 {
+  width: 32.7%;
+  display: inline-block;
+}
+
+.box-3 {
+  width: 22.5%;
+  display: inline-block;
+}
+
+.box-2 {
+  width: 10%;
+  display: inline-block;
+}
+
+.box-1 {
+  width: 10%;
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #e3e3e3;
+  height: "80px";
+}
+
+header .logo {
+  display: inline-block;
+  margin: 5px auto;
+}
+
+header .logo h1 {
+  display: inline-block;
+  font-size: 24px;
+}
+
+header .logo h1 a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #333333;
+}
+
+header .logo h1 a:hover {
+  color: #767676;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  list-style: none;
+  background-color: transparent;
+  vertical-align: middle;
+  margin-top: 24px;
+}
+
+nav ul li {
+  height: "80px";
+  border-right: 1px solid #333;
+  padding-right: 10px;
+  display: inline-block;
+  background-color: transparent;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 5px;
+  color: #333333;
+}
+
+nav ul li a:hover {
+  color: #767676;
+}
+
+nav ul li:last-child {
+  border-right: none;
+  padding-right: 0px;
+}
+
+.center-flex {
+  width: 100%;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.l-flex {
+  display: inline-block;
+  float: left;
+}
+
+.r-flex {
+  display: inline-block;
+  float: right;
+}
+
+.flex {
+  display: inline-block;
+}
+
+.img-flex {
+  width: 100%;
+  height: auto;
+}
+
+.img-circle {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.img-rounded {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.text-center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-25 {
+  height: 25%;
+}
+
+/*ovverides*/
+.container {
+  background: #e3e3e3;
+}
